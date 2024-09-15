@@ -5,6 +5,7 @@ import About from './Components/About/About.jsx'
 import Skills from './Components/Skills/Skills.jsx'
 import Mywork from './Components/MyWork/Mywork.jsx'
 import Contact from './Components/Contact/Contact.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 
  const App = () => {
@@ -16,6 +17,7 @@ import Contact from './Components/Contact/Contact.jsx'
       <Skills/>
       <Mywork/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
