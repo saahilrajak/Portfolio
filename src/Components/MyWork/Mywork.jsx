@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Mywork.css";
 import theme_pattern from '../../assets/theme_pattern.svg';
-import mywork_data from '../../assets/mywork_data';
+import mywork_data from '../../assets/mywork_data.js';
 import arrow_icon from "../../assets/arrow_icon.svg"
 
 const Mywork = () => {

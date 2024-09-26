@@ -82,3 +82,10 @@
     flex-direction: column-reverse;
   }
 }
+
+.footer-top-left img{
+  width: 150px;
+  height: auto;
+  border: #a0a0a0;
+  border-radius: 25px;
+}
