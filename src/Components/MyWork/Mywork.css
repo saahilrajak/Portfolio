@@ -1,95 +1,99 @@
-.my-work{
+.my-work {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 3vw;
   align-items: center;
   justify-content: center;
-  margin: 60px 120px;
+  margin: 5vw 10vw;
 }
 
-.mywork-title{
+.mywork-title {
   position: relative;
 }
 
-.mywork-title h1{
-  padding: 0px 30px;
-  font-size: 45px;
+.mywork-title h1 {
+  padding: 0 2vw;
+  font-size: 3vw;
   font-weight: 400;
 }
 
-.mywork-title img{
+.mywork-title img {
   z-index: -1;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-.mywork-container{
+.mywork-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2vw;
 }
 
-.mywork-container img{
+.mywork-container img {
   box-sizing: border-box;
-  width: 419px;
-  height: 280px;
+  width: 100%;
+  height: auto;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.mywork-container img:hover{
-  transform: scale(1.10);
+.mywork-container img:hover {
+  transform: scale(1.1);
   border: 4px solid #ff00ff;
-  border-radius:10px ;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
-.mywork-showmore{
+.mywork-showmore {
   display: flex;
-  gap: 25px;
+  gap: 1.5vw;
   border-radius: 50px;
-  border-radius: 2px solid white;
-  padding: 30px 60px;
-  font-size: 15px;
+  padding: 2vw 4vw;
+  font-size: 1.5vw;
   font-weight: 370;
-  margin-bottom: 45px;
+  margin-bottom: 4vw;
   transition: 0.6s;
   cursor: pointer;
 }
 
-.mywork-showmore:hover{
-  gap: 30px;
+.mywork-showmore:hover {
+  gap: 2vw;
   transition: 0.6s;
 }
 
-@media(max-width:768px){
-  .my-work{
-    gap: 50px;
-    margin: 50px 70px;
+@media (max-width: 768px) {
+  .my-work {
+    gap: 5vw;
+    margin: 5vw 7vw;
     align-items: start;
   }
-  .mywork-title h1{
+
+  .mywork-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 8vw;
     font-weight: 600;
   }
-  .mywork-title img{
-    width: 130px;
-    margin-right: -20px;
+
+  .mywork-title img {
+    width: 20vw;
+    margin-right: -5vw;
   }
-  .mywork-container{
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+
+  .mywork-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
   }
-  .mywork-container img{
+
+  .mywork-container img {
     width: 100%;
     height: 100%;
   }
-  .mywork-showmore{
-    padding: 20px 40px;
-    font-size: 18px;
-    margin: 50px auto;
+
+  .mywork-showmore {
+    padding: 3vw 6vw;
+    font-size: 4vw;
+    margin: 8vw auto;
     cursor: pointer;
   }
 }

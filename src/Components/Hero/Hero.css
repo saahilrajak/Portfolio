@@ -1,117 +1,122 @@
-
-.hero{
+.hero {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 35px;
+  gap: 2vw;
 }
 
-.profile-img{
+.profile-img {
   border: #b415ff;
   cursor: pointer;
   border-radius: 25px;
-  size: 200px;
+  width: 200px;
 }
 
-.hero img{
-  margin-top: 120px;
+.hero img {
+  margin-top: 10vh;
+  width: 15vw;
 }
 
-.hero h1{
+.hero h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 5vw;
   width: 70%;
-  font-weight:600;
+  font-weight: 600;
 }
 
-.hero h1 span{
-  background: linear-gradient(270deg , #df8908 , #b415ff 100%);
+.hero h1 span {
+  background: linear-gradient(270deg, #df8908, #b415ff 100%);
   background-clip: text;
-  -webkit-background-clip:text; 
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero p{
+.hero p {
   width: 50%;
   text-align: center;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 2vw;
+  line-height: 4vh;
 }
 
-.hero-action{
+.hero-action {
   display: flex;
   align-items: center;
-  gap: 25px;
-  font-size: 24px;
+  gap: 1.5vw;
+  font-size: 2vw;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 5vh;
 }
 
-.hero-connect{
-  padding: 25px 45px;
+.hero-connect {
+  padding: 2vw 4vw;
   border-radius: 50px;
-  background: linear-gradient(264deg , #df8908 -5.09% , #b415ff 106.28%);
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
   cursor: pointer;
 }
 
-.hero-resume{
-    padding: 25px 75px;
-    border-radius: 50px;
-   border: 2px solid #fff;
-    cursor: pointer;
+.hero-resume {
+  padding: 2vw 6vw;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
 }
 
-.hero-resume a{
-    text-decoration: none; 
-    color: inherit;         
-}
-
-.hero-connect-socialmedia a{
-  display: flex;
-  justify-content: center;  
-  align-items: center;
-  gap: 20px;
-  padding: 10px;
+.hero-resume a {
   text-decoration: none;
   color: inherit;
 }
 
-.hero-connect:hover{
-  border:2px solid white;
+.hero-connect-socialmedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vh;
+  text-decoration: none;
+  color: inherit;
 }
 
-.hero-resume:hover{
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-resume:hover {
   border-color: #b415ff;
 }
 
-@media(max-width:768px){
-  .hero img{
-    margin-top: 120px;
-    width: 260px;
+@media (max-width: 768px) {
+  .hero img {
+    margin-top: 12vh;
+    width: 26vw;
   }
-  .hero h1{
-    margin-top: 50px;
+
+  .hero h1 {
+    margin-top: 5vh;
     width: 90%;
-    font-size: 50px;
+    font-size: 8vw;
   }
-  .hero p{
+
+  .hero p {
     width: 60%;
-    font-size: 18px;
-    line-height: 32px;
-    margin: 10px 0px;
+    font-size: 4vw;
+    line-height: 5vh;
+    margin: 1vh 0;
   }
-  .hero-action{
-    gap: 16px;
-    font-size: 18px;
+
+  .hero-action {
+    gap: 4vw;
+    font-size: 4vw;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
   }
-  .hero-connect{
-    padding: 20px 30px;
+
+  .hero-connect {
+    padding: 3vw 6vw;
     border-radius: 40px;
   }
-  .hero-resume{
-    padding: 20px 50px;
+
+  .hero-resume {
+    padding: 3vw 8vw;
     border-radius: 40px;
   }
 }
